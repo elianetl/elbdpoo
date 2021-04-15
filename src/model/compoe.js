@@ -19,5 +19,3 @@ const compoe = db.define("Compõe",
 );
 
 module.exports = compoe; 
-
-// Eliane

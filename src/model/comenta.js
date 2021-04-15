@@ -20,4 +20,3 @@ const comenta = db.define("Comenta",
 
 module.exports = comenta; 
 
-// Eliane

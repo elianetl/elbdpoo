@@ -9,7 +9,7 @@ const publicacao = db.define("Publicação",
             allowNull: false,
             primaryKey: true
         },
-        nome_usuario : {
+        nomeusuario : {
             type: DataTypes.STRING,
             allowNull: false
         },

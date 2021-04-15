@@ -20,4 +20,3 @@ const curte = db.define("Curte",
 
 module.exports = curte; 
 
-// Eliane

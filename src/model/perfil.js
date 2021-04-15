@@ -28,4 +28,3 @@ const perfil = db.define("Perfil",
 
 module.exports = perfil; 
 
-// Eliane
