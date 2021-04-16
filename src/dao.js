@@ -92,4 +92,78 @@ var perfil = {
          let del = await d.destroy();
          console.log(del);
      }
+},
+
+ var posta = {
+
+  create: async function (object){
+    let c = await posta.create(object);
+    console.log(ass);
+  }
+  ,
+  ler:async function (objet){
+    let r = await posta.findAll();
+    console.log(ass);
+  }
+  ,
+   atualizar: async function (novonome, id){
+
+        const u = await posta.findByPk(id);
+        await u.update({nome:`${novonome}`});
+    }
+,
+    deletar: async function (id){
+        const d = await posta.findByPk(id);
+        let del = await object.destroy();
+        console.log(del);
+}
+}
+
+var publicacao = {
+
+    create: async function (objeto){
+        let c = await publicacao.create(objeto);
+        console.log(access);
+    }
+    ,
+    ler: async function (){
+     let r = await publicacao.findAll();
+     console.log(access);
+    }
+    ,
+    atualizar: async function (novonome, id){
+        const u = await publicacao.findByPk(Id);
+        await u.update({nome:`${novonome}`});
+    }
+    ,
+     deletar: async function (id){
+         const d = await publicacao.findByPk(id);
+         let del = await object.destroy();
+         console.log(del);
+     }
+} 
+
+var usuario = {
+
+    create: async function (objeto){
+    let c = await usuario.create(objeto);
+    console.log(a);
+    }
+,
+    ler: async function (){
+        let r = await usuario.findAll();
+        console.log(a);
+        }
+        ,
+
+    atualizar: async function (novonome, id){
+        const u = await usuario.findByPk(id);
+        await u.update({nome:`${novonome}`});
+    }
+,
+    deletar: async function (id){
+        const d = await usuario.findByPk(id);
+        let del = await object.destroy();
+        console.log(del);
+}
 }
